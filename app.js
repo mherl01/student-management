@@ -68,6 +68,7 @@ app.get('/students/search', (req, res) => {
     );
 });
 
+
 app.get('/students/add', (req, res) => {
     res.render('add');
 });
